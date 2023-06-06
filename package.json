@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest",
+    "lint": "eslint --ext \".ts,.js,.vue\" --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.0.0",
+    "@nuxtjs/eslint-config-typescript": "^9.0.0",
+    "@pinia/testing": "^0.0.14",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@vue/test-utils": "^2.2.6",
+    "eslint": "^8.30.0",
+    "jsdom": "^20.0.3",
+    "nuxt": "3.0.0",
+    "unplugin-auto-import": "^0.12.1",
+    "vite-svg-loader": "^4.0.0",
+    "vitest": "^0.26.2"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@pinia/nuxt": "^0.4.6",
+    "D": "^1.0.0",
+    "eslint-plugin-vue": "^9.8.0",
+    "pinia": "^2.0.28"
+  }
+}
